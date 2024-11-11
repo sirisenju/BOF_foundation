@@ -1,4 +1,4 @@
-import React from "react";
+
 
 function MediaPage() {
   return (
@@ -98,12 +98,12 @@ function MediaPage() {
           <div className=" p-4">
             <h2 className="text-3xl font-semibold pt-4 pb-4">Sunday Service Videos</h2>
             {/* outer div */}
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {/* video div */}
-              <div className="max-w-md h-auto bg-white rounded-xl shadow-lg">
+              <div className="w-full h-auto bg-white rounded-xl shadow-lg">
                 <img
                     loading="lazy"
-                  className="w-full h-[250px] rounded-t-xl"
+                  className="w-full h-[230px] lg:h-[250px] object-cover object-center rounded-t-xl"
                   src="assets/bibleBg.jpg"
                   alt=""
                 />
@@ -114,10 +114,10 @@ function MediaPage() {
               </div>
 
               {/* video div */}
-              <div className="max-w-md h-auto bg-white rounded-xl shadow-lg">
+              <div className="w-full h-auto bg-white rounded-xl shadow-lg">
                 <img
                     loading="lazy"
-                  className="w-full h-[250px] rounded-t-xl"
+                  className="w-full h-[230px] lg:h-[250px] object-cover object-center rounded-t-xl"
                   src="assets/bibleBg.jpg"
                   alt=""
                 />
@@ -128,10 +128,10 @@ function MediaPage() {
               </div>
 
               {/* video div */}
-              <div className="max-w-md h-auto bg-white rounded-xl shadow-lg">
+              <div className="w-full h-auto bg-white rounded-xl shadow-lg">
                 <img
                     loading="lazy"
-                  className="w-full h-[250px] rounded-t-xl"
+                  className="w-full h-[230px] lg:h-[250px] object-cover object-center rounded-t-xl"
                   src="assets/bibleBg.jpg"
                   alt=""
                 />

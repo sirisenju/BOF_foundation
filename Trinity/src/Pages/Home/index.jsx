@@ -1,6 +1,5 @@
-import React from "react";
-import NavBar from "../../Components/navbar";
-import Footer from "../../Components/footer";
+import TabSwitcher from "../../Components/tabSwitcher";
+
 
 function Home() {
   return (
@@ -8,7 +7,7 @@ function Home() {
       <section className="hero-bg">
         <div className="flex items-center justify-center h-full p-4 md:p-0">
           <div className="glass max-w-md text-center p-4 pt-10 mb-10 text-black">
-            <p className="text-xl">Be a part of God's Mission!!!</p>
+            <p className="text-xl">Be a part of God Mission!!!</p>
             <h1 className="text-4xl">Welcome to The Holy Trinity.</h1>
           </div>
         </div>
@@ -131,54 +130,8 @@ function Home() {
             </p>
           </div>
 
-          <div className="max-w-5xl mx-auto p-4">
-            {/* button headers */}
-            <div className="grid grid-cols-2 gap-2 md:flex justify-between pt-2 pb-2">
-              <button className="bg-red-200 px-12 py-2 mt-2 rounded-full border border-black border-b-2">
-                Who We Are
-              </button>
-              <button className="px-12 py-2 mt-2 rounded-full border border-black border-b-2">
-                Our History{" "}
-              </button>
-              <button className="px-12 py-2 mt-2 rounded-full border border-black border-b-2">
-                What We Do
-              </button>
-              <button className="px-12 py-2 mt-2 rounded-full border border-black border-b-2">
-                Our Mission
-              </button>
-            </div>
-
-            {/* content */}
-            <div className="block md:flex gap-4 p-4 sm:p-12 bg-white mt-4 rounded-xl shadow-md">
-              {/* dive for image */}
-              <div className="w-full md:w-[50%]">
-                <img
-                  className="w-full h-full object-cover object-center rounded-xl"
-                  src="assets/bibleBg.jpg"
-                  alt=""
-                />
-              </div>
-
-              {/* text */}
-              <div className="w-full md:w-[50%]">
-                <h2 className="text-3xl text-balance font-medium pb-4">
-                  We Exist to Connect People to Jesus and Each Other.
-                </h2>
-                <p className="text-base pb-10 text-balance">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id,
-                  dolor sed placeat quasi ducimus, fugit voluptatem eos
-                  voluptas, recusandae fugiat eligendi? Illo dolorem nihil
-                  temporibus distinctio quidem quasi magni id nam expedita.
-                  Asperiores accusamus ducimus vitae delectus commodi adipisci
-                  ad nihil explicabo officiis, odit a dolor qui iure corrupti
-                  facere?
-                </p>
-                <a href="#" className="text-lg underline">
-                  READ MORE
-                </a>
-              </div>
-            </div>
-          </div>
+          {/* Tab section */}
+          <TabSwitcher/>
         </div>
 
         {/* pray hand section */}
