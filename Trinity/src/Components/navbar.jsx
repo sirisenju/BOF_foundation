@@ -21,15 +21,22 @@ function NavBar({ onDonateClick }) {
     },
     {
       id: 4,
+      path: "/gallery",
+      text: "Gallery",
+    },
+    {
+      id: 5,
       path: "/events",
       text: "Events",
     },
   ]
   return (
-    <><header className="hidden lg:w-[90%] mx-auto bg-transparent md:flex justify-between items-center px-10 h-16 text-white">
-      <p>image</p>
+    <><header className="hidden lg:w-[90%] mx-auto bg-transparent md:flex justify-between items-center px-5 h-16 text-white">
+      <div className="h-[60px] w-[60px] mt-4">
+        <img className="w-full h-full object-cover object-center" src="./assets/bof.png" alt="" />
+      </div>
       <nav className="">
-        <ul className="flex gap-14">
+        <ul className="flex gap-10">
           {navLinks.map((index) => (
             <NavLink
               key={index.id}

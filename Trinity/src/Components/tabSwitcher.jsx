@@ -51,7 +51,7 @@ const TabSwitcher = () => {
           </button>
         ))}
       </div>
-      <div className="block md:flex gap-4 p-4 sm:p-12 bg-white mt-4 rounded-xl shadow-md">
+      <div className="block md:flex gap-4 p-4 sm:p-10 bg-white mt-4 rounded-xl shadow-md">
         {/* dive for image */}
         <div className="w-full md:w-[50%]">
                 <img
@@ -62,7 +62,7 @@ const TabSwitcher = () => {
               </div>
 
         {/* text */}
-        <div className="w-full md:w-[50%]">
+        <div className="w-full md:w-[50%] pt-2 md:pt-10">
                 <h2 className="text-3xl text-balance font-medium pb-4">
                   {tabs[activeTab].title}
                 </h2>

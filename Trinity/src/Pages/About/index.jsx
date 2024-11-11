@@ -29,11 +29,11 @@ function About() {
 
       {/* about section description */}
       <section>
-        <div className="w-full sm:w-[80%] mx-auto">
+        <div className="w-full sm:w-[90%] mx-auto">
           <div className="bg-[#D3D3D3] w-full p-2 mx-auto mb-5 mt-2">
             <div className="border-white border-2">
               <h2 className="text-2xl font-bold text-center pt-2 pb-2">
-                Join us for worship
+                Join us! Be a part of our mission, be a part of change.
               </h2>
               <div className="w-[40%] border-white border-2 mx-auto"></div>
               <p className="text-lg text-center pt-2">
@@ -43,22 +43,23 @@ function About() {
           </div>
 
           <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:flex mb-4 bg-white rounded-lg shadow-md">
-            <div className=" lg:w-[33.33%] p-4">
+            <div className="lg:w-[33.33%] p-4">
               <h2 className="text-3xl">About Us</h2>
               <div className="w-[80%] border-black border-2 mt-3"></div>
               <div className="w-[50%] border-black border-2 mt-5 mb-3"></div>
-              <p className="text-balance">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati accusantium, similique quo expedita minima 
-                consectetur error quaerat natus fuga voluptatibus quod est, quibusdam labore assumenda eveniet tempore magni 
-                ratione culpa repellat, qui temporibus laudantium iste architecto! Quasi nesciunt, fugiat vitae cum 
-                voluptatibus repudiandae reprehenderit ducimus quia incidunt? Quos quo porro illo repellendus iure libero 
-                officia dicta, aspernatur nisi, debitis tenetur, exercitationem eligendi laudantium impedit vel magni labore 
-                doloribus. Quia, cum! Rem culpa natus necessitatibus reiciendis voluptas id, eos sint? Architecto, laboriosam. 
-                Nesciunt iure vitae odio voluptas est? Similique odio nisi minima dignissimos voluptas, ut ad molestias facere 
-                enim, quod, numquam autem consectetur magni adipisci. Fugiat ad animi ut ipsam natus fugit a esse ullam ex 
-                ducimus quas qui facere id, architecto quod recusandae sapiente impedit quisquam similique asperiores alias, 
-                aliquam expedita! Esse iusto, ipsam suscipit maiores debitis perspiciatis dolorem nisi voluptates, amet 
-                expedita aut dolore. Praesentium sint ab ipsa recusandae!
+              <p className="text-pretty">
+                BOF Outreach International is a community-driven foundation with a powerful purpose: 
+                to bring the heart of God Almighty to those in need. We believe in God’s vision for 
+                humanity—a world filled with hope, purpose, and love. Our mission is to help individuals 
+                rebuild their lives according to God’s divine plan, offering guidance, support, and a pathway 
+                to a brighter future.
+                We are a group of compassionate individuals committed to giving hope to the hopeless, helping 
+                each person find their God-given purpose, and restoring His love in every life we touch. By sharing 
+                the word of God and offering practical support, we aim to reach the lost, empower individuals to embrace 
+                a life of dignity, and nurture a community of responsible, compassionate people. Together, we can influence 
+                the world with a positive spirit, make it a better place, and spread God’s love, care, and hope to all.
+                Our work is more than just assistance; it’s a calling to impact lives with lasting change, build resilient 
+                communities, and transform the world through faith, love, and grace.
               </p>
             </div>
             <div className="lg:w-[33.33%] flex flex-col bg-[#D3D3D3]">
@@ -73,19 +74,15 @@ function About() {
                 <div className="text-balance">
                   <h2 className="text-3xl font-semibold pb-2">Our Mission</h2>
                   <p className="pb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Velit voluptatibus nulla nostrum natus accusantium omnis
-                    sequi quas expedita ipsam illo eos libero, quia error totam
-                    doloremque. Laborum maxime cumque vitae!
+                    Reaching the globe with the message of salvation, restoration, 
+                    deliverance, wealth and health making humanity heavenly Conscious 
+                    and earthly useful.
                   </p>
                 </div>
                 <div className="border-black border-t-2 text-balance">
                   <h2 className="text-3xl font-semibold pt-4">Our Vision</h2>
                   <p className="pt-2">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Velit voluptatibus nulla nostrum natus accusantium omnis
-                    sequi quas expedita ipsam illo eos libero, quia error totam
-                    doloremque. Laborum maxime cumque vitae!
+                    Evangelizing the Earth and redeeming humanity for Christ Jesus.
                   </p>
                 </div>
               </div>
@@ -94,18 +91,16 @@ function About() {
               <h2 className="text-3xl">What we offer</h2>
               <div className="w-[80%] border-black border-2 mt-3"></div>
               <div className="w-[50%] border-black border-2 mt-5 mb-3"></div>
-              <p className=" text-balance">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati accusantium, similique quo expedita minima 
-                consectetur error quaerat natus fuga voluptatibus quod est, quibusdam labore assumenda eveniet tempore magni 
-                ratione culpa repellat, qui temporibus laudantium iste architecto! Quasi nesciunt, fugiat vitae cum 
-                voluptatibus repudiandae reprehenderit ducimus quia incidunt? Quos quo porro illo repellendus iure libero 
-                officia dicta, aspernatur nisi, debitis tenetur, exercitationem eligendi laudantium impedit vel magni labore 
-                doloribus. Quia, cum! Rem culpa natus necessitatibus reiciendis voluptas id, eos sint? Architecto, laboriosam. 
-                Nesciunt iure vitae odio voluptas est? Similique odio nisi minima dignissimos voluptas, ut ad molestias facere 
-                enim, quod, numquam autem consectetur magni adipisci. Fugiat ad animi ut ipsam natus fugit a esse ullam ex 
-                ducimus quas qui facere id, architecto quod recusandae sapiente impedit quisquam similique asperiores alias, 
-                aliquam expedita! Esse iusto, ipsam suscipit maiores debitis perspiciatis dolorem nisi voluptates, amet 
-                expedita aut dolore. Praesentium sint ab ipsa recusandae!
+              <p className=" text-pretty">
+                At BOF Outreach International, we provide a range of services and programs aimed at uplifting 
+                individuals, meeting community needs, and sharing God’s love with everyone we encounter. 
+                Here’s a closer look at what we offer:
+                <li>Evangelism: We share the word of God, offering hope and purpose through a relationship with Jesus Christ.</li>
+                <li>Community Crusades: Large gatherings for worship, prayer, and teachings that inspire unity and faith.</li>
+                <li>Community Outreach: Engaging with local communities to provide support and promote well-being.</li>
+                <li>Visitation to Poor Homes: Bringing companionship, practical help, and spiritual guidance to underserved households.</li>
+                <li>Food Donation: Offering regular food donations to those in need, ensuring no one goes hungry.</li>
+                Through these efforts, we strive to make a lasting impact, offering hope, support, and love to each person we reach.
               </p>
             </div>
           </div>

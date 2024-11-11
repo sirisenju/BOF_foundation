@@ -1,13 +1,12 @@
 import TabSwitcher from "../../Components/tabSwitcher";
 
-
 function Home() {
   return (
     <main>
       <section className="hero-bg">
-        <div className="flex items-center justify-center h-full p-4 md:p-0">
-          <div className="glass max-w-md text-center p-4 pt-10 mb-10 text-black">
-            <p className="text-xl">Be a part of God Mission!!!</p>
+        <div className="flex items-center justify-start w-full h-full p-4 md:p-0">
+          <div className="glass text-center w-full p-8 text-white">
+            <p className="text-xl">Be a part of God's Mission!!!</p>
             <h1 className="text-4xl">Welcome to The Holy Trinity.</h1>
           </div>
         </div>
@@ -34,14 +33,15 @@ function Home() {
           <div className="mt-0 sm:mt-4">
             <div className="text-center p-4 sm:p-8">
               <h2 className="pb-4 text-3xl font-semibold">
-                Welcome to The Holy Trinity.
+                Welcome to the BOF Outreach International.
               </h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis aliquam nisi nam quae eius id officia aperiam ullam
-                ipsum, omnis autem doloribus a iste. Consectetur ab odit,
-                dolorum tenetur veniam voluptatibus soluta natus, perspiciatis
-                amet magni quaerat nesciunt non omnis.
+              <p className=" text-balance text-base">
+                At BOF Outreach International, we believe that everyone deserves the opportunity to build a 
+                life of dignity, purpose, and hope. Our foundation is dedicated to helping individuals find
+                their way off the streets, overcome challenges, and rediscover their path to a fulfilling and 
+                self-sustained life.
+                Our mission is more than just offering a helping hand; we aim to empower individuals with 
+                the tools, guidance, and support necessary for lasting change.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex justify-between gap-4">
@@ -116,7 +116,7 @@ function Home() {
       {/* signage text */}
       <section>
         <div className="w-full bg-white pt-14 pb-14 pl-2 pr-2 mb-4"> 
-          <p className="text-6xl font-semibold text-center">OUR PASSION IS CHRIST.</p>
+          <p className="text-6xl font-semibold text-center">OUR PASSION IS CHANGE.</p>
         </div>
       </section>
 
@@ -183,6 +183,35 @@ function Home() {
             </div>
           </div>
         </div>
+
+        {/* <div className="pt-5 w-full mx-auto">
+            <div className="w-[100%] h-20  overflow-hidden relative">
+              <div className="w-[100%] flex items-center h-20 justify-around absolute left-0 animate gap-20 animate">
+                {images.map((item) => (
+                  <div
+                    key={item.id}
+                    className="flex justify-center items-start w-[20rem] text-white"
+                  >
+                    <img src={item.logo} className="h-12 w-10" />
+                    <span className="self-center pl-3 text-3xl font-semibold font-primaryfont">
+                      {item.text}
+                    </span>
+                  </div>
+                ))}
+                {images.map((item) => (
+                  <div
+                    key={item.id}
+                    className="flex justify-center items-start w-[20rem] text-white"
+                  >
+                    <img src={item.logo} className="h-12 w-10" />
+                    <span className="self-center pl-3 text-3xl font-semibold font-primaryfont">
+                      {item.text}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div> */}
       </section>
     </main>
   );

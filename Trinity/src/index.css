@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 *{
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,7 +30,7 @@ body{
 .glass {
   /* From https://css.glass */
   background: rgba(139, 130, 130, 0.32);
-  border-radius: 16px;
+  border-radius: 0px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7.8px);
   -webkit-backdrop-filter: blur(7.8px);
@@ -155,4 +157,79 @@ body{
     background-repeat: no-repeat;
   }
   
+}
+
+/* swiper controls */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 500px;
+  background-color: transparent;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 40px !important;
+  height: 3px !important;
+  border-radius: 0px !important;
+  background: rgb(35, 34, 34) !important;
+}
+
+.swiper-button-next {
+  /* Styling for the next button */
+  right: 170px !important;
+}
+
+.swiper-button-prev {
+  /* Styling for the previous button */
+  left: 170px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  /* Styling for navigation buttons */
+  color: white !important;
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.swiper-button-next:after {
+  /* icon inside next button */
+  content: url(); /*link to asset */
+  font-size: 30px !important;
+}
+
+.swiper-button-prev:after {
+  /* icon inside next button */
+  content: url(); /*link to asset */
+  font-size: 30px !important;
+}
+
+@media only screen and (max-width: 720px) {
+  .swiper-button-next {
+    /* Styling for the next button */
+    right: 2px !important;
+  }
+  
+  .swiper-button-prev {
+    /* Styling for the previous button */
+    left: 2px !important;
+  }
 }

@@ -7,6 +7,7 @@ import MediaPage from "./Pages/Media";
 import { useState } from "react";
 import DonateModal from "./Components/donate";
 import Footer from "./Components/footer";
+import Gallery from "./Pages/Gallery";
 
 function App() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -29,10 +30,11 @@ function App() {
 
         <DonateModal isOpen={isModalOpen} onClose={closeModal} />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/media" element={<MediaPage />} />
-          <Route path="/events" element={<EventsPage />} />
+          <Route path="/" element={<Home />}/>
+          <Route path="/about" element={<About />}/>
+          <Route path="/media" element={<MediaPage />}/>
+          <Route path="/gallery" element={<Gallery/>}/>
+          <Route path="/events" element={<EventsPage />}/>
         </Routes>
 
         {/* footer section */}
