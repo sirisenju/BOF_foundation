@@ -6,7 +6,7 @@ function Home() {
       <section className="hero-bg">
         <div className="flex items-center justify-start w-full h-full p-4 md:p-0">
           <div className="glass text-center w-full p-8 text-white">
-            <p className="text-xl">Be a part of God's Mission!!!</p>
+            <p className="text-xl">Be a part of God Mission!!!</p>
             <h1 className="text-4xl">Welcome to The Holy Trinity.</h1>
           </div>
         </div>
@@ -54,11 +54,11 @@ function Home() {
                   />
                 </div>
                 <div className="p-3">
-                  <h2 className="text-3xl font-medium pb-2">New here?</h2>
+                  <h2 className="text-3xl font-medium pb-2">Community Crusades</h2>
                   <p className="text-base">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Earum aspernatur adipisci non omnis blanditiis facere natus,
-                    vel eveniet aliquid beatae!
+                    Our faith-filled events bring people together, 
+                    inspiring unity, purpose, and a renewed sense of hope in the community. 
+                    In the name of God, love faith and hope.
                   </p>
                   <button className="bg-yellow-300 px-8 py-3 mt-2">
                     Learn more
@@ -75,11 +75,10 @@ function Home() {
                   />
                 </div>
                 <div className="p-3">
-                  <h2 className="text-3xl font-medium pb-2">New here?</h2>
+                  <h2 className="text-3xl font-medium pb-2">Visitations</h2>
                   <p className="text-base">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Earum aspernatur adipisci non omnis blanditiis facere natus,
-                    vel eveniet aliquid beatae!
+                    We extend God’s love and compassion by visiting prison inmates, 
+                    orphanages, and underserved communities, reminding each person they are valued and not alone.
                   </p>
                   <button className="bg-yellow-300 px-8 py-3 mt-2">
                     Learn more
@@ -97,11 +96,11 @@ function Home() {
                 </div>
 
                 <div className="p-3">
-                  <h2 className="text-3xl font-medium pb-2">New here?</h2>
+                  <h2 className="text-3xl font-medium pb-2">Scholarships</h2>
                   <p className="text-base">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Earum aspernatur adipisci non omnis blanditiis facere natus,
-                    vel eveniet aliquid beatae!
+                    We offer scholarships to individuals who have turned their 
+                    lives around and found their way back to God, empowering them to 
+                    pursue education, purpose, and a brighter future.
                   </p>
                   <button className="bg-yellow-300 px-8 py-3 mt-2">
                     Learn more
