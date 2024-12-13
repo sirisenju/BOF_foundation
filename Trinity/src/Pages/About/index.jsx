@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 function About() {
@@ -10,7 +11,7 @@ function About() {
             <h1 className="text-2xl leading-tight">
               Welcome to the <br />
               <span className="text-[70px] font-semibold">
-                Holy Trinity Ministires.
+                Holy Trinity Ministires
               </span>
             </h1>
             <a className="pt-4 text-lg" href="#">
@@ -65,8 +66,8 @@ function About() {
             <div className="lg:w-[33.33%] flex flex-col bg-[#D3D3D3]">
               <div className="w-full max-h-[380px] mb-2">
                 <img
-                  src="assets/teen-praying.jpg"
-                  className="w-full h-full object-cover object-center"
+                  src="assets/pastor_fred.JPG"
+                  className="w-full h-full object-cover object-top"
                   alt=""
                 />
               </div>
@@ -117,8 +118,8 @@ function About() {
               {/* dive for image */}
               <div className="w-full lg:w-[50%] max-h-[520px] order-last">
                 <img
-                  className="w-full h-[300px] lg:h-full object-cover object-center rounded-xl"
-                  src="assets/bibleBg.jpg"
+                  className="w-full h-[280px] lg:h-full object-cover object-center rounded-xl"
+                  src="assets/night-crusade.JPG"
                   alt=""
                 />
               </div>
@@ -137,9 +138,6 @@ function About() {
                   ad nihil explicabo officiis, odit a dolor qui iure corrupti
                   facere?
                 </p>
-                <a href="#" className="text-lg underline">
-                  READ MORE
-                </a>
               </div>
               
             </div>
@@ -148,8 +146,8 @@ function About() {
               {/* dive for image */}
               <div className="w-full lg:w-[50%] max-h-[520px]">
                 <img
-                  className="w-full h-[300px] lg:h-full object-cover object-center rounded-xl"
-                  src="assets/bibleBg.jpg"
+                  className="w-full h-[280px] lg:h-full object-cover object-center rounded-xl"
+                  src="assets/night-crusade1.JPG"
                   alt=""
                 />
               </div>
@@ -168,11 +166,19 @@ function About() {
                   ad nihil explicabo officiis, odit a dolor qui iure corrupti
                   facere?
                 </p>
-                <a href="#" className="text-lg underline">
-                  READ MORE
-                </a>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="w-full bg-white pt-14 pb-14 pl-2 pr-2 mb-4"> 
+          <p className="text-6xl font-semibold text-center">MORE QUESTIONS ABOUT US?</p>
+          <div className="flex justify-center">
+          <Link to={"/contactus"}>
+            <button className="mt-8 bg-green-700 px-20 py-3 rounded-sm shadow-sm text-lg text-white">Contact Us</button>
+          </Link>
           </div>
         </div>
       </section>
@@ -180,12 +186,11 @@ function About() {
       {/* foourth section */}
       <section className="bg-white p-10">
         <div className="w-full lg:w-[80%] mx-auto flex flex-wrap gap-2">
-          
           {/* inner divs */}
           <div className=" bg-[#D3D3D3] p-2 mx-auto mb-5 mt-2 basis-[290px] grow">
-            <div className="border-white border-2 ">
+            <div className="border-white border-2 p-4">
               <h2 className="text-2xl font-bold text-center pt-2 pb-2">
-                Join us for worship
+                Join us for worship in the Community
               </h2>
               <div className="w-[50%] border-white border-2 mx-auto"></div>
               <p className="text-lg text-center pt-2">
@@ -195,25 +200,25 @@ function About() {
           </div>
 
           <div className=" bg-[#D3D3D3] p-2 mx-auto mb-5 mt-2 basis-[290px] grow">
-            <div className="border-white border-2 ">
+            <div className="border-white border-2 p-4">
               <h2 className="text-2xl font-bold text-center pt-2 pb-2">
-                Join us for worship
+                Experience the Power of Worship
               </h2>
               <div className="w-[50%] border-white border-2 mx-auto"></div>
               <p className="text-lg text-center pt-2">
-                We are a community of believers who worship God.
+                Come together in faith and fellowship.
               </p>
             </div>
           </div>
 
           <div className=" bg-[#D3D3D3] p-2 mx-auto mb-5 mt-2 basis-[290px] grow">
-            <div className="border-white border-2 ">
+            <div className="border-white border-2 p-4">
               <h2 className="text-2xl font-bold text-center pt-2 pb-2">
-                Join us for worship
+                Be Part of Our Worship Family
               </h2>
               <div className="w-[50%] border-white border-2 mx-auto"></div>
               <p className="text-lg text-center pt-2">
-                We are a community of believers who worship God.
+                Find joy, hope, and inspiration in worship.
               </p>
             </div>
           </div>

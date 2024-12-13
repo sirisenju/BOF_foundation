@@ -8,6 +8,7 @@ import { useState } from "react";
 import DonateModal from "./Components/donate";
 import Footer from "./Components/footer";
 import Gallery from "./Pages/Gallery";
+import ContactUs from "./Pages/Contact";
 
 function App() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -35,10 +36,11 @@ function App() {
           <Route path="/media" element={<MediaPage />}/>
           <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/events" element={<EventsPage />}/>
+          <Route path="/contactus" element={<ContactUs/>}/>
         </Routes>
 
         {/* footer section */}
-        <div>
+        <div className="w-full">
           <Footer/>
         </div>
       </div>

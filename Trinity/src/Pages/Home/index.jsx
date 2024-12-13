@@ -1,4 +1,5 @@
 import TabSwitcher from "../../Components/tabSwitcher";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -14,19 +15,27 @@ function Home() {
 
       {/* second section */}
       <section>
-        <div className="w-full sm:w-[90%] lg:w-[80%] mx-auto bg-white p-2 mb-4">
+        <div className="w-full sm:w-[90%] lg:w-[80%] mx-auto bg-white p-2 mb-4 2xl:max-w-7xl">
           <div className="w-full grid grid-cols-1 md:flex gap-2 mt-2">
             <div className="h-[80px] w-[50%] request-bg1 p-2 shadow-md">
-              <div className="border border-black border-solid text-center">
-                <h1 className="text-3xl">REQUEST PRAYER</h1>
-                <button className="">Now</button>
-              </div>
+              <Link to={"/contactus"}>
+                <button className="w-full">
+                  <div className="border border-black border-solid text-center">
+                    <h1 className="text-3xl">REQUEST PRAYER</h1>
+                    <p className="text-xl font-bold">Now</p>
+                  </div>
+                </button>
+              </Link>
             </div>
             <div className="h-[80px] w-[50%] request-bg2 p-2 shadow-md">
-              <div className="border border-white border-solid text-center">
-                <h1 className="text-3xl text-white">GIVE ONLINE</h1>
-                <button className="text-white">Give</button>
-              </div>
+            <Link to={"/contactus"}>
+                <button className="w-full">
+                  <div className="border border-white border-solid text-center">
+                    <h1 className="text-3xl text-white">GIVE ONLINE</h1>
+                    <p className="text-xl font-bold text-white">Give</p>
+                  </div>
+                </button>
+            </Link>
             </div>
           </div>
 
@@ -121,7 +130,7 @@ function Home() {
 
       {/* mission statement kind of section */}
       <section>
-        <div className="w-full sm:w-[90%] lg:w-[80%] mx-auto">
+        <div className="w-full sm:w-[90%] lg:w-[80%] mx-auto 2xl:max-w-7xl">
           <div className="text-center">
             <h2 className=" text-xl pt-2 pb-2">WHAT WE BELIEVE.</h2>
             <p className=" text-4xl font-semibold pb-2">
@@ -135,7 +144,7 @@ function Home() {
 
         {/* pray hand section */}
         <div className="w-full bg-white mt-10 p-4">
-          <div className="w-full md:w-[70%] mx-auto grid grid-cols-2 items-center md:flex md:justify-between">
+          <div className="w-full md:w-[70%] mx-auto grid grid-cols-2 items-center md:flex md:justify-between 2xl:max-w-7xl">
             <div className="max-w-xs text-center p-2">
               <div className="flex justify-center items-center">
                 <img
@@ -144,10 +153,9 @@ function Home() {
                   alt=""
                 />
               </div>
-              <h2 className="pt-2">Reading a Prayer</h2>
+              <h2 className="pt-2">Faith in Action</h2>
               <p className="pt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis, doloremque.
+                Together, we lift hearts in prayer and hope.
               </p>
             </div>
 
@@ -159,10 +167,9 @@ function Home() {
                   alt=""
                 />
               </div>
-              <h2 className="pt-2">Reading a Prayer</h2>
+              <h2 className="pt-2">Guided by Truth</h2>
               <p className="pt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis, doloremque.
+                Inspiring lives through wisdom and the Word.
               </p>
             </div>
 
@@ -174,43 +181,13 @@ function Home() {
                   alt=""
                 />
               </div>
-              <h2 className="pt-2">Reading a Prayer</h2>
+              <h2 className="pt-2">Symbol of Peace</h2>
               <p className="pt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis, doloremque.
+                Spreading love, harmony, and hope to all.
               </p>
             </div>
           </div>
         </div>
-
-        {/* <div className="pt-5 w-full mx-auto">
-            <div className="w-[100%] h-20  overflow-hidden relative">
-              <div className="w-[100%] flex items-center h-20 justify-around absolute left-0 animate gap-20 animate">
-                {images.map((item) => (
-                  <div
-                    key={item.id}
-                    className="flex justify-center items-start w-[20rem] text-white"
-                  >
-                    <img src={item.logo} className="h-12 w-10" />
-                    <span className="self-center pl-3 text-3xl font-semibold font-primaryfont">
-                      {item.text}
-                    </span>
-                  </div>
-                ))}
-                {images.map((item) => (
-                  <div
-                    key={item.id}
-                    className="flex justify-center items-start w-[20rem] text-white"
-                  >
-                    <img src={item.logo} className="h-12 w-10" />
-                    <span className="self-center pl-3 text-3xl font-semibold font-primaryfont">
-                      {item.text}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div> */}
       </section>
     </main>
   );

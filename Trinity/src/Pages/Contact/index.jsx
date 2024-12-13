@@ -2,136 +2,26 @@ import React from 'react'
 import Accordian from '../../Components/accordian'
 import accordianData from '../../../lib/accordianData'
 
-function Gallery() {
-  return (
-    <main>
-      <section className='contactus-hero-bg'>
-        <div className='2xl:max-w-7xl h-full'>
-          <div className="max-w-xl p-2 text-balance text-white h-full flex justify-center items-center">
-            <div className="pl-0 sm:pl-10 glass p-8">
-              <h1 className="text-4xl font-bold leading-tight">
-                Reach out to us and learn and join us today.
-              </h1>
-            </div>
-          </div>
-        </div>
-      </section>
+function ContactUs() {
+    return (
+        <main>
+            <section className='contactus-hero-bg'>
+                <div className="max-w-xl p-2 text-balance text-white h-full flex justify-center items-center">
+                    <div className="pl-0 sm:pl-10 glass p-8">
+                        <h1 className="text-4xl font-bold leading-tight">
+                            Reach out to us and learn and join us today.
+                        </h1>
+                    </div>
+                </div>
+            </section>
 
-      <section>
-        <div className="w-full bg-white pt-14 pb-14 pl-2 pr-2 mb-4">
-          <p className="text-6xl font-semibold text-center">Changing Lives, Our Legacy.</p>
-        </div>
-      </section>
+            <section>
+                <div className="w-full bg-white pt-14 pb-14 pl-2 pr-2 mb-4">
+                    <p className="text-6xl font-semibold text-center">Reach out! be the change you want to see</p>
+                </div>
+            </section>
 
-
-
-      {/* Gallery for images */}
-      <section className="w-full h-full overflow-clip">
-        <div
-          className="w-full lg:w-[80%] h-full mx-auto mb-10 p-2 lg:p-0 2xl:max-w-7xl"
-        >
-          <h2 className="text-2xl pb-8 pt-2">Our Gallery</h2>
-          <div className="row1 flex gap-2 justify-between flex-wrap">
-            <div
-              className="flex-grow basis-[250px]"
-            >
-              <img src="assets/media-bg.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-            <div
-              className="flex-grow basis-[250px]"
-            >
-              <img src="assets/media-bg.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-            <div
-              className="flex-grow basis-[250px]"
-            >
-              <img src="assets/contactUsBg.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-          </div>
-          <div className="row2 flex flex-wrap gap-2 mt-2 mb-2">
-            <div
-              className="flex-grow basis-[250px]"
-            >
-              <img src="assets/dreads.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-            <div
-              className="flex-grow basis-[250px]"
-            >
-              <img src="assets/contactUsBg.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-            <div
-              className="flex-grow basis-[250px]"
-            >
-              <img src="assets/dreads.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-            <div
-              className="flex-grow basis-[250px]"
-            >
-              <img src="assets/bibleBg.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Gallary section 2 */}
-      <section className='h-full lg:h-screen w-full bg-white overflow-clip'>
-        <div className='h-full w-full lg:w-[80%] p-2 mx-auto pt-10 pb-10 2xl:max-w-7xl'>
-          <div className='h-[60%] block lg:flex gap-2 pb-2'>
-            <div className='w-full lg:w-[50%]'>
-              <img src="assets/contactUsBg.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-            <div className='w-full lg:w-[50%]'>
-              <div className='h-[50%] block lg:flex gap-2'>
-                <div className='w-full lg:w-[50%] h-full py-2 lg:py-0'><img src="assets/contactUsBg.jpg" className='object-cover h-full w-full' alt="" /></div>
-                <div className='w-full lg:w-[50%] h-full '><img src="assets/contactUsBg.jpg" className='object-cover h-full w-full' alt="" /></div>
-              </div>
-              <div className='h-[50%] pt-2'>
-                <img src="assets/bibleBg.jpg" className='object-cover h-full w-full' alt="" />
-              </div>
-            </div>
-          </div>
-
-          <div className='h-[40%] flex flex-wrap gap-2'>
-            <div className='basis-[220px] flex-grow'>
-              <img src="assets/bibleBg.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-            <div className='basis-[220px] flex-grow'>
-              <img src="assets/dreads.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-            <div className='basis-[220px] flex-grow'>
-              <img src="assets/media-bg.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-            <div className='basis-[220px] flex-grow'>
-              <img src="assets/contactUsBg.jpg" className='object-cover h-full w-full' alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Gallary section 2 */}
-      <section className='h-full w-full'>
-        <div className='w-full lg:w-[80%] mx-auto flex flex-wrap p-2 gap-2 2xl:max-w-7xl pt-10 pb-10'>
-          <div className='bg-red-200 flex-grow basis-[220px]'>
-            <img src="assets/contactUsBg.jpg" className='object-cover h-full w-full' alt="" />
-          </div>
-          <div className='bg-red-400 flex-grow basis-[280px]'>
-            <img src="assets/media-bg.jpg" className='object-cover h-full w-full' alt="" />
-          </div>
-          <div className='bg-red-600 flex-grow basis-[220px]'>
-            <img src="assets/dreads.jpg" className='object-cover h-full w-full' alt="" />
-          </div>
-        </div>
-      </section>
-
-
-      {/* donate sign */}
-      <section>
-        <div className="w-full bg-white pt-14 pb-14 pl-2 pr-2 mb-4">
-          <p className="text-6xl font-semibold text-center">Recah out to us, Contact us.</p>
-        </div>
-      </section>
-
-      <section>
+            <section>
                 <div className='w-full p-4 lg:p-0 lg:w-[80%] mx-auto block lg:flex gap-24 pt-6 justify-center'>
                     {/* the accordian div */}
                     <div>
@@ -266,8 +156,8 @@ function Gallery() {
                     </div>
                 </div>
             </section>
-    </main>
-  )
+        </main>
+    )
 }
 
-export default Gallery
+export default ContactUs

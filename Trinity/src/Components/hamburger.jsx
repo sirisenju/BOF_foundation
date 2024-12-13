@@ -26,6 +26,11 @@ function HamburgerMenu() {
           path: "/events",
           text: "Events",
         },
+        {
+          id: 5,
+          path: "/contactus",
+          text: "Contact Us",
+        },
       ]
 
     const [isOpen, setIsOpen] = useState(false);

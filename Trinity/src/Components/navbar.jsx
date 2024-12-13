@@ -31,7 +31,7 @@ function NavBar({ onDonateClick }) {
     },
   ]
   return (
-    <><header className="hidden lg:w-[90%] mx-auto bg-transparent md:flex justify-between items-center px-5 h-16 text-white">
+    <><header className="hidden lg:w-[90%] mx-auto bg-transparent md:flex justify-between items-center px-5 h-16 text-white 2xl:max-w-7xl">
       <div className="h-[60px] w-[60px] mt-4">
         <img className="w-full h-full object-cover object-center" src="./assets/bof.png" alt="" />
       </div>
