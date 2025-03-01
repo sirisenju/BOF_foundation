@@ -111,13 +111,13 @@ function Gallery() {
       {/* Gallary section 2 */}
       <section className='h-full w-full'>
         <div className='w-full lg:w-[80%] mx-auto flex flex-wrap p-2 gap-2 2xl:max-w-7xl pt-10 pb-10'>
-          <div className='bg-red-200 flex-grow basis-[220px]'>
+          <div className='flex-grow basis-[220px]'>
             <img src="assets/contactUsBg.jpg" className='object-cover h-full w-full' alt="" />
           </div>
-          <div className='bg-red-400 flex-grow basis-[280px]'>
+          <div className='flex-grow basis-[280px]'>
             <img src="assets/media-bg.jpg" className='object-cover h-full w-full' alt="" />
           </div>
-          <div className='bg-red-600 flex-grow basis-[220px]'>
+          <div className='flex-grow basis-[220px]'>
             <img src="assets/dreads.jpg" className='object-cover h-full w-full' alt="" />
           </div>
         </div>

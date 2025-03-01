@@ -9,9 +9,9 @@ function About() {
         <div className="max-w-xl p-2 text-balance text-white h-full flex justify-center items-center">
           <div className="pl-0 sm:pl-28">
             <h1 className="text-2xl leading-tight">
-              Welcome to the <br />
+              Welcome to <br />
               <span className="text-[70px] font-semibold">
-                Holy Trinity Ministires
+              BOF Outreach International
               </span>
             </h1>
             <a className="pt-4 text-lg" href="#">

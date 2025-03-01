@@ -8,7 +8,7 @@ function Home() {
         <div className="flex items-center justify-start w-full h-full p-4 md:p-0">
           <div className="glass text-center w-full p-8 text-white">
             <p className="text-xl">Be a part of God Mission!!!</p>
-            <h1 className="text-4xl">Welcome to The Holy Trinity.</h1>
+            <h1 className="text-4xl">Welcome BOF Outreach International</h1>
           </div>
         </div>
       </section>
